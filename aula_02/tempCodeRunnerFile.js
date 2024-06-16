@@ -1,7 +1,9 @@
-const idadePessoa1 = 16;
-const idadePessoa2 = 39;
+const mediaDoAluno = 4;
 
-console.log(idadePessoa1 >= 18 && idadePessoa2 >= 18)
-console.log(idadePessoa1 >= 18 || idadePessoa2 >= 18)
-
-console.log(!(idadePessoa1 >= 18));
+if (mediaDoAluno >= 7) {
+    console.log("Aprovado");
+} else if (mediaDoAluno < 7 && mediaDoAluno >= 5) {
+    console.log("Em Recuperação");
+} else {
+    console.log("Reprovado")
+}
