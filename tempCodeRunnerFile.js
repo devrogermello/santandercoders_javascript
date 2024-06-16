@@ -1,8 +1,2 @@
-let notaDoAluno = 10;
-const mediaDoAluno = 8;
-
-notaDoAluno = 9;
-// ! mediaDoAluno = 5; Não pode alterar variavel const!
-
-console.log(notaDoAluno)
-console.log(mediaDoAluno)
+console.log(1 + "1")
+console.log(10 - "5")
